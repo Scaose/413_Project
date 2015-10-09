@@ -13,6 +13,7 @@ public class btnControl : MonoBehaviour, IPointerClickHandler {
 	
 	}
 	public void OnPointerClick(PointerEventData data){
+		Debug.Log("hi gitChecking");
 		sc.UpdateCombo();
 	}
 }
